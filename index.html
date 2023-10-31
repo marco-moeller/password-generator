@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="index.js" type="module"></script>
+    <div class="main--container">
+      <h1>Generate a <br /><span class="green">random password</span></h1>
+      <p>Never use an insecure password again.</p>
+      <div class="input--container">
+        <button class="generate--btn" id="generate-btn">
+          Generate passwords
+        </button>
+        <div class="input">
+          <label for="length">desired length</label>
+          <input
+            type="text"
+            id="length"
+            class="input--length"
+            value="15"
+            maxlength="2"
+          />
+          <label for="length">characters</label>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="output--container">
+        <div class="password--container">
+          <div id="password--one" class="password green"></div>
+        </div>
+        <div class="password--container">
+          <div id="password--two" class="password green"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

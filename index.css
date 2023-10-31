@@ -1,0 +1,109 @@
+body {
+  margin: 100px;
+  font-family: i;
+  background-color: #1c1c1c;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 100px 50px;
+  width: 450px;
+  height: 350px;
+  background-color: #1f2937;
+}
+
+h1 {
+  font-style: 800;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: -10; /* change this to whatever height you want it */
+}
+
+p {
+  color: grey;
+  font-style: bold;
+  font-size: 1.35rem;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.green {
+  color: #10b981;
+}
+
+.input--container {
+  display: flex;
+  gap: 20px;
+}
+
+.generate--btn {
+  font-family: "Karla", sans-serif;
+  color: white;
+  background-color: #10b981;
+  border: none;
+  width: 191px;
+  height: 39px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.generate--btn:hover {
+  cursor: pointer;
+}
+
+.input--length {
+  color: white;
+  background-color: #10b981;
+  width: 39px;
+  height: 39px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: none;
+  text-align: center;
+}
+
+label {
+  color: grey;
+}
+
+.line {
+  width: 446px;
+  height: 40px;
+  border-bottom: 1px solid grey;
+  opacity: 0.5;
+}
+
+.password {
+  font-size: 1.2rem;
+}
+
+.password:hover {
+  cursor: pointer;
+}
+
+.output--container {
+  width: 446px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.password--container {
+  width: 211px;
+  height: 39px;
+  background-color: #273549;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
